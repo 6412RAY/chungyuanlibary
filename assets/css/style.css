@@ -1,0 +1,222 @@
+body{
+    color: black;
+    font-family: "標楷體";
+    margin: 0px;
+    padding: 0px;
+}
+
+/*標題圖片*/
+.title-img{
+    position: relative;
+    left: 350px;
+}
+
+/*標題gif*/
+.gif01{
+    width: 50px;
+    height: 50px;
+    background: url(assets/圖1.gif) no-repeat;
+}
+
+.gif01-set{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.gif02{
+    width: 50px;
+    height: 50px;
+    background: url(assets/圖1.gif) no-repeat;
+}
+
+.gif02-set{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 1340px;
+}
+
+/*導覽列*/
+nav.set{
+    position: relative;
+    opacity:0.75;
+}
+
+nav ul {
+    background-color: #8B4513;
+    list-style: none;
+    
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CC6600;
+    color: white;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*圖片輪播*/
+.slider-set{
+    margin: 30px auto;
+    width: 700px;
+    height: 394px;
+    position: relative;
+    border: 20px solid;
+    border-color: #fff;
+    border-bottom-width: 20px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider-set div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.slider-set div {
+    -webkit-animation: round 5 linear infinite;
+    animation: round 5s linear infinite;
+}
+
+@-webkit-keyframes round {
+    10% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 0.5秒 淡入*/
+    }
+
+    30% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 2.5秒靜止*/
+    }
+    90% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 4.5-5秒淡出*/
+    }
+}
+
+@keyframes round{
+    10% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 -0.5秒 淡入*/
+    }
+    
+    30% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1-2.5秒靜止*/
+    }
+    90% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 4-5秒淡出*/
+    }
+}
+
+.slider-set div:nth-child(1){
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.slider-set div:nth-child(2){
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+/*圖片輪播文字*/
+.slider-set span{
+    color: white;
+    background-color: black;
+    opacity:0.75;
+    position: absolute;
+    left: 0%;
+    top: 360px;
+    width: 400px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    -webkit-transform:scaleY(0);
+    -ms-transform:scaleY(0);
+    transform:scaleY(0);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.slider-set:hover span{
+    width: 10%;
+    -webkit-transform:scaleY(1);
+    -ms-transform:scaleY(1);
+    transform:scaleY(1);
+}
+.slider_container:hover div {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}   
+
+/*首頁文字框*/
+.text{
+    margin: 30px auto;
+    width: 700px;
+    height: 230px;
+    position: relative;
+    border: 20px solid;
+    border-color: white;
+    border-bottom-width: 20px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+/*首頁內文文字*/
+.text-set{
+    color: #8B4513;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-set02{
+    color: black;
+    font-size: 20px;
+    list-style: none;
+}
+
+input{
+    font-family: "標楷體";
+    font-size: 20px;
+    border: 0;
+    background-color: #8B4513;
+    color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input:hover{
+    color: white;
+    background-color: #CC6600;
+    cursor: pointer;
+}
+
