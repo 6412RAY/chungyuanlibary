@@ -1,0 +1,102 @@
+body{
+    color: black;
+    font-family: "標楷體";
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-img{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*標題gif*/
+.gif01-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+.gif02-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+/*導覽列*/
+nav.set{
+    position: relative;
+    opacity:0.75;
+}
+
+nav ul {
+    background-color: #8B4513;
+    list-style: none;
+    
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CC6600;
+    color: white;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*表單框*/
+fieldset{
+    border:0;
+    padding:10px;
+    margin-bottom:10px;
+    background:#ffffff;
+}
+
+legend{
+    padding:5px 10px;
+    background-color:#8B4513;
+    color: #f5f5dc;
+    border-radius: 20px;
+}
+
+.form-set{
+    margin: 30px auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    border: 20px solid;
+    border-color: #f5f5dc;
+    border-bottom-width: 20px;
+    background-color: #ffffff;
+    box-shadow: #666 0 0 5px;
+    color: #8B4513;
+}
+
+/*送出*/
+.submit-set{
+    font-family: "標楷體";
+    font-size: 20px;
+    border: 0;
+    background-color: #8B4513;
+    color: #f5f5dc;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.submit-set:hover{
+    color: #8B4513;
+    background-color: #f5f5dc;
+    cursor: pointer;
+}

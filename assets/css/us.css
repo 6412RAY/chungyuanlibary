@@ -1,0 +1,111 @@
+body{
+    color: black;
+    font-family: "標楷體";
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-img{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*標題gif*/
+.gif01-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+.gif02-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+/*導覽列*/
+nav.set{
+    position: relative;
+    opacity:0.75;
+}
+
+nav ul {
+    background-color: #8B4513;
+    list-style: none;
+    
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CC6600;
+    color: white;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*名字*/
+.text-title-set{
+    width: 80px;
+    padding: 15px;
+    background-color: #f5f5dc;
+    margin: .5em;
+    box-sizing: border-box;
+    color: #8B4513;
+}
+
+/*照片框*/
+.imgframe-set{
+    margin-right:50px;
+    margin-left: 400px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border: 20px solid;
+    border-color: #f5f5dc;
+    border-bottom-width: 20px;
+    background-color: #ffffff;
+    box-shadow: #666 0 0 5px;
+    float: left;
+    color: white;
+}
+
+/*內文框*/
+.textframe-set{
+    margin-right:100px;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border: 20px solid;
+    border-color: #f5f5dc;
+    border-bottom-width: 20px;
+    background-color: #ffffff;
+    box-shadow: #666 0 0 5px;
+    float: left;
+    color: #8B4513;
+}
+/*照片*/
+.img{
+    width: 300px;
+    height: 400px;
+}
+
+.ig{
+    width: 60px;
+    height: 60px;
+}
+
+.ig2{
+    width: 50px;
+    height: 50px;
+}

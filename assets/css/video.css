@@ -1,0 +1,73 @@
+body{
+    color: black;
+    font-family: "標楷體";
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-img{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*標題gif*/
+.gif01-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+.gif02-set{
+    width: 150px;
+    position: relative;
+    top: 0px;
+}
+
+/*導覽列*/
+nav.set{
+    position: relative;
+    opacity:0.75;
+}
+
+nav ul {
+    background-color: #8B4513;
+    list-style: none;
+    
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 15px;
+    padding: 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CC6600;
+    color: white;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*影片框*/
+.outsideframe-set{
+    margin: 30px auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    border: 20px solid;
+    border-color: #fff;
+    border-bottom-width: 20px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+/*影片*/
+.video{
+    width: 100%;
+    height: 100%;
+}
