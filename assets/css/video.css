@@ -54,15 +54,27 @@ nav a:hover {
 }
 
 /*影片框*/
-.outsideframe-set{
+.outsideframe-set01{
     margin: 30px auto;
     width: 700px;
     height: 400px;
     position: relative;
     border: 20px solid;
-    border-color: #fff;
+    border-color: #f5f5dc;
     border-bottom-width: 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    box-shadow: #666 0 0 5px;
+}
+
+.outsideframe-set02{
+    margin: 30px auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    border: 20px solid;
+    border-color: #ffffff;
+    border-bottom-width: 20px;
+    background-color: #f5f5dc;
     box-shadow: #666 0 0 5px;
 }
 
@@ -70,4 +82,13 @@ nav a:hover {
 .video{
     width: 100%;
     height: 100%;
+}
+
+/*底部*/
+.down{
+    height: 70px;
+    background-color: #8B4513;
+    opacity:0.75;
+    color: #f5f5dc;
+    text-align: center;
 }

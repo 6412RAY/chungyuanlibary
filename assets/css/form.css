@@ -100,3 +100,12 @@ legend{
     background-color: #f5f5dc;
     cursor: pointer;
 }
+
+/*底部*/
+.down{
+    height: 70px;
+    background-color: #8B4513;
+    opacity:0.75;
+    color: #f5f5dc;
+    text-align: center;
+}

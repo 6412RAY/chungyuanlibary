@@ -82,21 +82,21 @@ nav a:hover {
 
 .title02{
     position: absolute;
-    top: 710px;
+    top: 739px;
     left: 73px;
     color: #DEB887;
 }
 
 .title03{
     position: absolute;
-    top: 1114px;
+    top: 1174px;
     left: 73px;
     color: #DEB887;
 }
 
 .title04{
     position: absolute;
-    top: 1520px;
+    top: 1609px;
     left: 73px;
     color: #DEB887;
 }
@@ -106,6 +106,7 @@ nav a:hover {
 .text01{
     margin-right:100px;
     margin-left: 200px;
+    margin-bottom: 30px;
     width: 400px;
     height: 300px;
     position: relative;
@@ -203,4 +204,12 @@ nav a:hover {
     border-color: #f5f5dc;
     background-color: #ffffff;
 }
-  
+
+/*底部*/
+.down{
+    height: 70px;
+    background-color: #8B4513;
+    opacity:0.75;
+    color: #f5f5dc;
+    text-align: center;
+}
